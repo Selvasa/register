@@ -14,59 +14,69 @@
 
         <body>
 
-            <div class='register'>
+            <div class="container register">
 
-                <form>
+            <h2 class=' text-center h2'>Responsive Registration Form</h2>
                     
+            
+                <form class='row form '>
+                
+                    
+                    <div class='form'>
+                   
                     <p>
-                         <input type='email' name='email' placeholder='Email' required/>
+                        <input type='email' class='col-10' name='email' placeholder='Email' required/>
+                    </p>
+                
+                    <p>
+                        <input type='password' class='col-10' name='Password' placeholder='Password' required/>
+                    </p>
+                  
+                    <p>
+                         <input type='password' class='col-10' name='re-type-password' placeholder='Re-Type-password' required/>
                     </p>
 
                     <p>
-                         <input type='password' name='password' placeholder='Password' required/>
+                        <input type='text' class='col-5' name='first-name' placeholder='First-Name' required/>
+            
+                        <input type='text' class='col-5' name='last-name' placeholder='Last-Name' required/>
                     </p>
 
                     <p>
-                         <input type='password' name='re-type-password' placeholder='re-type-password' required/>
-                    </p>
+                        <label>
+                            <input type='radio'  name='male'/> Male
+                        </label>
+                       
+                        <label> 
+                            <input type='radio' name='fe-male'/> Female
+                        </label>
 
-                    <p>
-                         <input type='text' name='first-name' placeholder='First-Name' required/>
                     </p>
-
+                   
                     <p>
-                         <input type='text' name='last-name' placeholder='Last-Name' required/>
-                    </p>
-
-                    <p>
-                         <input type='radio' name='male' value='male'/>male
-                         <input type='radio' name='fe-male' value='female'/>Female
-                    </p>
-
-                    <p>
-                        <select>
-                            <option>India</option>
+                        <select class='col-10'>
+                            <option >India</option>
                             <option>America</option>
                             <option>pakishtan</option>
                             <option>country n</option>
                         </select>
-                    </p>
-
+                     </p>
+               
                     <p>
-                         <input type='checkbox' /> I agree terms and conditions<br>
-                         <input type='checkbox' /> I want to receive the newsletter
+                        <input type='checkbox' /> I agree terms and conditions<br><br>
+                        <input type='checkbox' /> I want to receive the newsletter
                     </p>
-
+                   
                     <p>
-                        <button type='submit'>Register</button>
-
-                    </p>
-
-
-
+                         <button class='col-10 btn btn-primary button'type='submit'>Register</button>
+                     </p>
+                     </div>
+                    
                 </form>
 
+            
             </div>
+
             
         </body>
         
