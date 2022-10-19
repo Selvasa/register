@@ -22,10 +22,11 @@
                 </div>
 
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
-                    <div class='col-sm-5 input-group'>
-                        <i class="fa-solid fa-envelope input-group-text"></i>
+                    <div class='col-sm-6'>
                          <input type='text' class='form-control' name='email' placeholder='Email'/>
                     </div>
+                    
+                   
                 </div>
 
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
