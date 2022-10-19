@@ -20,34 +20,45 @@
                 <div class='row '>
                     <div class='h2 text-center mt-3'>Responsive Registration<br>Form</div>  
                 </div>
-
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-6'>
-                         <input type='text' class='form-control' name='email' placeholder='Email'/>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                            <input type='text' class='form-control' name='email' placeholder='Email'/>
+                        </div>
                     </div>
-                    
-                   
                 </div>
-
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-6 '>
+                    <div class="input-group">
+                            <span class="input-group-text"><i class="fa-sharp fa-solid fa-lock"></i></span>
                          <input type='password' class='form-control' name='password' placeholder='Password'/>
                     </div>
+                    </div>
                 </div>
 
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-6 '>
+                    <div class="input-group">
+                            <span class="input-group-text"><i class="fa-sharp fa-solid fa-lock"></i></span>
                          <input type='password' class='form-control' name='re-type-password' placeholder='Re-Type-Password'/>
                     </div>
+                    </div>
                 </div>
-
+                
                 <div class='row  d-flex justify-content-center form-1 '>
                     <div class='col-sm-3 mt-4'>
+                    <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                          <input type='text' class='form-control' name='re-type-password' placeholder='First Name'/>
                     </div>
+</div>
                     <div class='col-sm-3 mt-4'>
+                    <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                         <input type='text' class='form-control' name='re-type-password' placeholder='Last Name'/>
                    </div>
+</div>
                 </div>
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-3 '>
