@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(235, 235, 235);
+    background-color:rgb(180, 175, 175);
     height:100vh;
 }
 .form{
@@ -7,11 +7,11 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow:  0 -3px 0 0 rgb(245, 180, 2);
     padding-bottom: 20px;
+   
 }
 .form-1
 {
-   margin: auto;
-   
+   margin: auto; 
 }
 .h2{
     padding-top: 20px;
