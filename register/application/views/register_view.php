@@ -25,6 +25,7 @@
                         <div class="input-group">
                             <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
                             <input type='text' class='form-control' name='email' placeholder='Email'/>
+                            <i class="fa-sharp fa-solid fa-circle-exclamation ps-2 mt-2" title='Please Enter the correct Email'></i>
                         </div>
                     </div>
                 </div>
@@ -33,16 +34,16 @@
                     <div class="input-group">
                             <span class="input-group-text"><i class="fa-sharp fa-solid fa-lock"></i></span>
                          <input type='password' class='form-control' name='password' placeholder='Password'/>
+                         <i class="fa-sharp fa-solid fa-circle-exclamation ps-2 mt-2" title='Password Must be a 8 character'></i>
                     </div>
                     </div>
                 </div>
-
-
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-6 '>
                     <div class="input-group">
                             <span class="input-group-text"><i class="fa-sharp fa-solid fa-lock"></i></span>
                          <input type='password' class='form-control' name='re-type-password' placeholder='Re-Type-Password'/>
+                         <i class="fa-sharp fa-solid fa-circle-exclamation ps-2 mt-2 " title='Must be same '></i>
                     </div>
                     </div>
                 </div>
