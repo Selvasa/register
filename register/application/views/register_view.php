@@ -64,10 +64,10 @@
                 </div>
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-3 '>
-                         <input type='radio' class='form-check-input' name='radio' /> Male
+                         <input type='radio' class='form-check-input' name='radio' /> : Male
                     </div>
                     <div class='col-sm-3 '>
-                        <input type='radio' class='form-check-input' name='radio' /> Female
+                        <input type='radio' class='form-check-input' name='radio' /> : Female
                    </div>
                 </div>
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
