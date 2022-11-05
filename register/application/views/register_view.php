@@ -18,7 +18,7 @@
         <div class="container mt-3 root">
             <form class='form'>
                 <div class='row '>
-                    <div class='h2 text-center mt-3'>Responsive Registration<br>Form</div>  
+                    <div class='h2 text-center mt-3'>Responsive Registration<br>Forms</div>  
                 </div>
                 <div class='row  mt-4  d-flex justify-content-center form-1 '>
                     <div class='col-sm-6'>
